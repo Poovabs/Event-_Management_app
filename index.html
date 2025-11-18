@@ -7,12 +7,9 @@
   <title>College Events</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
   <header class="navbar">
     <div class="logo">
-      <img src="./assets/logo1.jpg" alt="College Logo">
       <div class="logo">Event Pro</div>
     </div>
 
@@ -23,7 +20,7 @@
     </div>
 
     <nav>
-      <a href="#Upcoming Events">Find Events</a>
+      <a href="#Upcoming Events">All Events</a>
       <a href="#">Host Event</a>
       <a href="#footer">Help</a>
       <button class="login-btn">Login</button>
@@ -34,7 +31,9 @@
     <img src="./assets/kec college.webp" class="hero-img">
     <div class="hero-text">
       <h1>Discover Fest, Workshops and Cultural Events in Your Campus</h1>
-      <button id="registerBtn">Register Now</button>
+      <a href="#event-list-section">
+        <button id="registerBtn">Register Now</button>
+      </a>
 
       <div id="registerModal" class="modal">
         <div class="modal-content">
@@ -68,7 +67,7 @@
     </div>
   </section>
 
-  <section class="event-list-section">
+  <section id="event-list-section">
     <h2>Upcoming Events</h2>
     <div class="event-grid">
        
@@ -108,7 +107,7 @@
 
     </div>
   </section>
-  <section class="event-list-section">
+  <section id="event-list-section">
     <div class="event-grid">
 
       <div class="event-card">
@@ -218,6 +217,4 @@
   <script src="script.js"></script>
 </body>
 
-
 </html>
-
